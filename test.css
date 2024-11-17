@@ -170,6 +170,8 @@ a:hover{
     position: absolute;
     right: 8px;
     bottom: -78px;
+             width: 84px;
+        height: 7vh;
  }
  .right .phone {
     position: absolute;
