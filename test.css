@@ -155,7 +155,7 @@ a:hover{
     margin: 30vh auto;
 } */
 .next{
-    margin-top:-73px;
+    margin-top:13px;
 }
 .contener{
    
@@ -168,7 +168,7 @@ a:hover{
 }
  .left .footer {
     position: absolute;
-    right: 8px;
+    right: -73px;
     bottom: 10px;
  }
  .right .phone {
