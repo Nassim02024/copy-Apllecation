@@ -17,9 +17,9 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-image:url(/static/welcom-pro.png);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-size: cover;
     background-clip: content-box;
     background-color: #ffffffbf;
@@ -31,22 +31,7 @@ background-size: cover;
     border-radius: 20px;
     cursor: pointer;
 }
-/*.img1 , .img2 , .img3{
-    width: 134%;
-    height: 79vh;
-    margin-top: 62px;
-    border-radius: 20px;
-    transition: 1s;
-}
-.img1{
-    transform: translateX(26%);
-    }
-.img2{
-transform: translateX(-200%);
-}
-.img3{
-    transform: translateX(-400%);
-} */
+
 .contener{
 
 transition: 1s;
@@ -168,8 +153,8 @@ a:hover{
 .all{
     display: flex;
     flex-direction: column;
-            bottom:24px;
-        position: absolute;
+    bottom:20px;
+    position: absolute;
    
 }
 /* .img1 , .img2 , .img3{
@@ -180,7 +165,7 @@ a:hover{
     margin-top: 13vh;
 }
 .contener{
-    /* background-size: 121vh 99vh; */
+   
     height:90vh;
     /* overflow-y: scroll; */
     width: 100%;
