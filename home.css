@@ -839,9 +839,11 @@ width: 40%;
 
 
 @media (max-width:1024px) {
+   
   body{
     overflow: hidden;
     overflow-y: scroll;
+      font-size: 16px;
   }
   .header .list {
     width: 100%;
@@ -1042,6 +1044,9 @@ a {
 }
 }
 @media (max-width:360px ){
+        body{
+        font-size: 16px;
+    }
   .search-input{
   margin-left: 10pX;
   height: 5vh;
