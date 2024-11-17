@@ -16,6 +16,10 @@ body{
     overflow: hidden;
     background-position: center;
     background-repeat: no-repeat;
+    background-image:url(/static/welcom-pro.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
     background-size: cover;
     background-clip: content-box;
     background-color: #ffffffbf;
