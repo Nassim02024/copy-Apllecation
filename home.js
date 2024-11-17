@@ -117,7 +117,7 @@ function litle(element) {
                     <div class="box-mine">
                        <div></div>
                        <div class="line2"><span class="line1"> ${totalvalue}</span>  ${nam} ${brand} ${size} ${liplu}x </div>
-                       <div class="line3"> <span><img class="delet" onclick="delet(this)" src="ccv/delete_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt=""></span></div> 
+                       <div class="line3"> <span><img class="delet" onclick="delet(this)" src="ccv//delete_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt=""></span></div> 
                     </div>
         `
         
@@ -132,6 +132,19 @@ function litle(element) {
     let defaulte = parseInt(totals.innerHTML);
     let newTotal= defaulte + totalvalue
     totals.innerHTML = newTotal 
+
+
+    // let liplu = parentmenu.querySelector('.liplu')
+    // let ordOrd = document.querySelector('.ord-ord')
+
+    // let html_fin = ''
+    //     html_fin= `
+    //          <div class="fin-info">
+    //              (${liplu.innerHTML}x ${nam} ${brand} ${size} ${totalvalue})
+    //          </div>    
+    //     `
+        
+    // ordOrd.innerHTML += html_fin
 
 
     
@@ -186,7 +199,8 @@ function litle(element) {
  let logo = document.querySelector('.logo-ord img')
  imgOrd.onclick = function () {
     if (imgOrd.src.includes("ccv/open.png")) {
-   
+    //  pigPige.style.width = "25px"
+    //  pigPige.style.height = "0"
 
     imgOrd.style.display='block'
     now.style.display = 'block'
@@ -197,7 +211,7 @@ function litle(element) {
     pigPige.style.display = 'block'
     imgOrd.style.left = "10px"           
     pigPige.style.opacity = "1"
-    imgOrd.src = '/static/closes.png'  
+    imgOrd.src = 'ccv/closes.png'  
     logo.style.width = '300px'   
     } else {
         imgOrd.style.display='none'
@@ -222,8 +236,11 @@ function litle(element) {
 
  let confirmation = document.querySelector('.confirm')
  confirmation.onclick = function () {
-   
-pigPige.style.opacity ='1'
+    pigPige.style.width = "100%"
+    pigPige.style.height = "100vh"
+    pigPige.style.opacity ='1'
+    pigPige.style.display ='block'
+    
     let mine = document.querySelector('.mine')
     let ordOrd = document.querySelector('.ord-ord')
      const remov = document.querySelectorAll('.box-mine div:nth-child(3) span img')
@@ -246,7 +263,7 @@ pigPige.style.opacity ='1'
     pr.innerHTML = defaulte
 
 
-    imgOrd.src = '/static/closes.png'
+    imgOrd.src = 'ccv/closes.png'
     imgOrd.style.display = "block" 
     imgOrd.style.left = "10px"           
     pigPige.style.width = "100%"
