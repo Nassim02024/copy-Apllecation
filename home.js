@@ -178,7 +178,7 @@ function litle(element) {
     if (parseInt(totals.innerHTML) > 0) {
         confirmt.style.opacity='1'
         confirmt.style.display='flex'     
-        pigPige.style.display = 'flex'
+        pigPige.style.display = 'block'
        
     } else {
         confirmt.style.opacity='0' 
