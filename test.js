@@ -41,9 +41,9 @@ window.onload = function () {
       }, 1000);
   
       let Myimg = [
-        'http://127.0.0.1:5000/ccv/backg.jpg',
-        'http://127.0.0.1:5000/ccv/wel_LE_auto_x2.jpg',
-        'http://127.0.0.1:5000/ccv/icon%20com.jpg'
+        'http://192.168.1.100:5000/ccv/backg.jpg',
+        'http://192.168.1.100:5000/ccv/wel_LE_auto_x2.jpg',
+        'http://192.168.1.100:5000/ccv/icon%20com.jpg'
       ]
       localStorage.setItem ('imges' , JSON.stringify(Myimg) )
         
