@@ -155,7 +155,7 @@ a:hover{
     margin: 30vh auto;
 } */
 .next{
-    margin-top: 13vh;
+    margin-top: 10px;
 }
 .contener{
    
@@ -195,6 +195,8 @@ a:hover{
     justify-content: center;
     align-items: center;
     text-align: center;
+    position: relative;
+    top: 25px;
     
 }
 .left .mine p{
