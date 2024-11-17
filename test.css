@@ -18,6 +18,7 @@ body{
     background-color: #ffffffbf;
     transition: 2s;
     -webkit-user-drag:none ;
+    overflow: hidden;
 }
  .next{
     width: 61px;
