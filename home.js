@@ -134,19 +134,6 @@ function litle(element) {
     totals.innerHTML = newTotal 
 
 
-    // let liplu = parentmenu.querySelector('.liplu')
-    // let ordOrd = document.querySelector('.ord-ord')
-
-    // let html_fin = ''
-    //     html_fin= `
-    //          <div class="fin-info">
-    //              (${liplu.innerHTML}x ${nam} ${brand} ${size} ${totalvalue})
-    //          </div>    
-    //     `
-        
-    // ordOrd.innerHTML += html_fin
-
-
     
     
     conf()
@@ -198,9 +185,8 @@ function litle(element) {
  let imgOrd = document.querySelector('.img-ord')
  let logo = document.querySelector('.logo-ord img')
  imgOrd.onclick = function () {
-    if (imgOrd.src.includes("/static/open.png")) {
-    //  pigPige.style.width = "25px"
-    //  pigPige.style.height = "0"
+    if (imgOrd.src.includes("ccv/open.png")) {
+   
 
     imgOrd.style.display='block'
     now.style.display = 'block'
@@ -217,7 +203,7 @@ function litle(element) {
         imgOrd.style.display='none'
         pigPige.style.width = "0"
         pigPige.style.height = "0" 
-        imgOrd.src = "/static/open.png" 
+        imgOrd.src = "ccv/open.png" 
         pigPige.style.opacity = "0"
         now.style.display = 'none'
         titleprod.style.display = 'none'
