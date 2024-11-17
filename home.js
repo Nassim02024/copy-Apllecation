@@ -174,7 +174,7 @@ function litle(element) {
  function conf() {
     let confirmt = document.querySelector('.confirm')
     let totals = document.querySelector('.totals')
-     pigPige.style.display = 'block'
+    
     if (parseInt(totals.innerHTML) > 0) {
         confirmt.style.opacity='1'
         confirmt.style.display='flex'     
@@ -183,10 +183,12 @@ function litle(element) {
     } else {
         confirmt.style.opacity='0' 
         confirmt.style.display='none'
-         pigPige.style.display = 'none'
+        
        
     }
-    
+      confirmt.onclick =function () {
+        pigPige.style.display = 'block'
+    }
  }
 
 
