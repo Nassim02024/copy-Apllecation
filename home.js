@@ -178,12 +178,18 @@ function litle(element) {
     if (parseInt(totals.innerHTML) > 0) {
         confirmt.style.opacity='1'
         confirmt.style.display='flex'     
-        
+          pigPige.style.display = 'block'
+     pigPige.style.opacity = '1'
+     pigPige.style.width = '100%'
+     pigPige.style.hight = '100vh'
        
     } else {
         confirmt.style.opacity='0' 
         confirmt.style.display='none'
-        
+          pigPige.style.display = 'none'
+     pigPige.style.opacity = '0'
+     pigPige.style.width = '0'
+     pigPige.style.hight = '0'
        
     }
   
@@ -237,10 +243,7 @@ function litle(element) {
  let confirmation = document.querySelector('.confirm')
  confirmation.onclick = function () {
    
-    pigPige.style.display = 'block'
-     pigPige.style.opacity = '1'
-     pigPige.style.width = '100%'
-     pigPige.style.hight = '100vh'
+  
     let mine = document.querySelector('.mine')
     let ordOrd = document.querySelector('.ord-ord')
      const remov = document.querySelectorAll('.box-mine div:nth-child(3) span img')
