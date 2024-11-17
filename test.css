@@ -146,7 +146,7 @@ a:hover{
 .all{
     display: flex;
     flex-direction: column;
-    bottom:10px;
+    
     position: absolute;
    
 }
