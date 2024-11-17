@@ -155,7 +155,7 @@ a:hover{
     margin: 30vh auto;
 } */
 .next{
-    margin-top: 40px;
+    margin-top: 80px;
 }
 .contener{
    
@@ -173,7 +173,7 @@ a:hover{
  }
  .right .phone {
     position: absolute;
-    bottom: 20px;
+    bottom: 30px;
 }
 .left{
     display: flex;
