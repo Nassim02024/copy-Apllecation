@@ -117,7 +117,7 @@ function litle(element) {
                     <div class="box-mine">
                        <div></div>
                        <div class="line2"><span class="line1"> ${totalvalue}</span>  ${nam} ${brand} ${size} ${liplu}x </div>
-                       <div class="line3"> <span><img class="delet" onclick="delet(this)" src="ccv/delete_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt=""></span></div> 
+                       <div class="line3"> <span><img class="delet" onclick="delet(this)" src="/static//delete_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt=""></span></div> 
                     </div>
         `
         
@@ -178,23 +178,17 @@ function litle(element) {
     if (parseInt(totals.innerHTML) > 0) {
         confirmt.style.opacity='1'
         confirmt.style.display='flex'     
-          pigPige.style.display = 'block'
-     pigPige.style.opacity = '1'
-     pigPige.style.width = '100%'
-     pigPige.style.hight = '100vh'
+         
        
     } else {
         confirmt.style.opacity='0' 
         confirmt.style.display='none'
-          pigPige.style.display = 'none'
-     pigPige.style.opacity = '0'
-     pigPige.style.width = '0'
-     pigPige.style.hight = '0'
        
     }
   
+    
  }
-   
+
 
 
  let closeOrd = document.querySelector('.close-ord')
@@ -204,7 +198,7 @@ function litle(element) {
  let imgOrd = document.querySelector('.img-ord')
  let logo = document.querySelector('.logo-ord img')
  imgOrd.onclick = function () {
-    if (imgOrd.src.includes("ccv//open.png")) {
+    if (imgOrd.src.includes("/static/open.png")) {
     //  pigPige.style.width = "25px"
     //  pigPige.style.height = "0"
 
@@ -243,7 +237,7 @@ function litle(element) {
  let confirmation = document.querySelector('.confirm')
  confirmation.onclick = function () {
    
-  
+pigPige.style.opacity ='1'
     let mine = document.querySelector('.mine')
     let ordOrd = document.querySelector('.ord-ord')
      const remov = document.querySelectorAll('.box-mine div:nth-child(3) span img')
@@ -266,7 +260,7 @@ function litle(element) {
     pr.innerHTML = defaulte
 
 
-    imgOrd.src = 'ccv/closes.png'
+    imgOrd.src = '/static/closes.png'
     imgOrd.style.display = "block" 
     imgOrd.style.left = "10px"           
     pigPige.style.width = "100%"
