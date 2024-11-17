@@ -186,11 +186,11 @@ function litle(element) {
         
        
     }
-      confirmt.onclick =function () {
+  
+ }
+    confirmt.onclick =function () {
         pigPige.style.display = 'block'
     }
- }
-
 
 
  let closeOrd = document.querySelector('.close-ord')
