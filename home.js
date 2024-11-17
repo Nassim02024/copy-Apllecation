@@ -117,7 +117,7 @@ function litle(element) {
                     <div class="box-mine">
                        <div></div>
                        <div class="line2"><span class="line1"> ${totalvalue}</span>  ${nam} ${brand} ${size} ${liplu}x </div>
-                       <div class="line3"> <span><img class="delet" onclick="delet(this)" src="/static//delete_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt=""></span></div> 
+                       <div class="line3"> <span><img class="delet" onclick="delet(this)" src="ccv/delete_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt=""></span></div> 
                     </div>
         `
         
@@ -198,7 +198,7 @@ function litle(element) {
  let imgOrd = document.querySelector('.img-ord')
  let logo = document.querySelector('.logo-ord img')
  imgOrd.onclick = function () {
-    if (imgOrd.src.includes("/static/open.png")) {
+    if (imgOrd.src.includes("ccv//open.png")) {
     //  pigPige.style.width = "25px"
     //  pigPige.style.height = "0"
 
@@ -260,7 +260,7 @@ function litle(element) {
     pr.innerHTML = defaulte
 
 
-    imgOrd.src = '/static/closes.png'
+    imgOrd.src = 'ccv/closes.png'
     imgOrd.style.display = "block" 
     imgOrd.style.left = "10px"           
     pigPige.style.width = "100%"
