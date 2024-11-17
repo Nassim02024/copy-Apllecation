@@ -164,7 +164,7 @@ a:hover{
 .all{
     display: flex;
     flex-direction: column;
-            bottom: 69px;
+            bottom:24px;
         position: absolute;
    
 }
