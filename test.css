@@ -152,6 +152,9 @@ a:hover{
 }
 
 @media(max-width:1024px){
+    body{
+        font-size: 16px;
+        }
     .contener{
         width: 0;
         /* height: 0; */
