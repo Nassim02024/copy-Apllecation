@@ -178,12 +178,12 @@ function litle(element) {
     if (parseInt(totals.innerHTML) > 0) {
         confirmt.style.opacity='1'
         confirmt.style.display='flex'     
-  
+        pigPige.style.display = 'flex'
        
     } else {
         confirmt.style.opacity='0' 
         confirmt.style.display='none'
-  
+         pigPige.style.display = 'none'
        
     }
     
