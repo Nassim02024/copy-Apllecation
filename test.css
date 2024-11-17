@@ -168,10 +168,10 @@ a:hover{
 }
  .left .footer {
     position: absolute;
-    right: 8px;
-    bottom: -78px;
-             width: 84px;
-        height: 7vh;
+        bottom: -71px;
+        width: 90px;
+        right: 26px;
+        height: 8vh;
  }
  .right .phone {
     position: absolute;
