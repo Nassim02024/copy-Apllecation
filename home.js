@@ -117,7 +117,7 @@ function litle(element) {
                     <div class="box-mine">
                        <div></div>
                        <div class="line2"><span class="line1"> ${totalvalue}</span>  ${nam} ${brand} ${size} ${liplu}x </div>
-                       <div class="line3"> <span><img class="delet" onclick="delet(this)" src="/static//delete_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt=""></span></div> 
+                       <div class="line3"> <span><img class="delet" onclick="delet(this)" src="ccv/delete_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" alt=""></span></div> 
                     </div>
         `
         
