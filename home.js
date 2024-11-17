@@ -188,9 +188,7 @@ function litle(element) {
     }
   
  }
-    confirmt.onclick =function () {
-        pigPige.style.display = 'block'
-    }
+   
 
 
  let closeOrd = document.querySelector('.close-ord')
@@ -239,7 +237,10 @@ function litle(element) {
  let confirmation = document.querySelector('.confirm')
  confirmation.onclick = function () {
    
-
+    pigPige.style.display = 'block'
+     pigPige.style.opacity = '1'
+     pigPige.style.width = '100%'
+     pigPige.style.hight = '100vh'
     let mine = document.querySelector('.mine')
     let ordOrd = document.querySelector('.ord-ord')
      const remov = document.querySelectorAll('.box-mine div:nth-child(3) span img')
